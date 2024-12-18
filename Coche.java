@@ -22,6 +22,10 @@ public class Coche {
     public void setanyo( int anyo){
         this.anyoMat = anyo;
     }
+
+    public String toString(){
+        return this.matricula + " - " + this.anyoMat;
+    }
     
 
 
