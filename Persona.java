@@ -7,6 +7,10 @@ public class Persona {
         this.edad = edad;
     }
 
-    
+    public String toString(){
+        String salida;
+        salida = this.nombre + " - " + this.edad;
+        return salida;
+    }
     
 }
